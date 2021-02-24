@@ -3,7 +3,8 @@ import "../stylesheets/App.scss";
 import OnionHeater from "./OnionHeater";
 
 class App extends React.Component {
-  OnClickListenerWithLifting(textareaValue) {
+  OnClickListenerWithLifting(textareaValue) // 5
+  {
     console.log(textareaValue);
   }
   render() {
@@ -11,6 +12,7 @@ class App extends React.Component {
       <div className="App">
         <OnionHeater
           OnClickListenerWithLifting={this.OnClickListenerWithLifting}
+          //6
         />
       </div>
     );
